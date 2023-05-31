@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_messenger/paginas/bemvindo_pagina.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Whatsapp ',
-      home: Scaffold(
-        body: Center(
-          child: Text("Pagina Demo"),
-        ),
-      ),
+      home: BenvindoPagina(),
     );
   }
 }
