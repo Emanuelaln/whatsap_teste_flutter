@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_messenger/common/temas/tema_branco.dart';
 import 'package:whatsapp_messenger/common/temas/tema_dark.dart';
-import 'package:whatsapp_messenger/bemvindo/paginas/bemvindo_pagina.dart';
+import 'package:whatsapp_messenger/feature/auth/pages/login_pagina.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: temaBranco(),
       darkTheme: temaDark(),
       themeMode: ThemeMode.dark,
-      home: const BenvindoPagina(),
+      home: const PaginaLogin(),
     );
   }
 }
