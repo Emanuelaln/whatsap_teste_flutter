@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "528085913",
+    "project_id": "whatsapp-messenger-127aa",
+    "storage_bucket": "whatsapp-messenger-127aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528085913:android:b0d5633fb573af4464d908",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528085913-p0pauf6pcfibej6reb37nefdvrkk12du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmpaaihGSGkGuEVRNfJh65zr8zh8kOYus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528085913-p0pauf6pcfibej6reb37nefdvrkk12du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
